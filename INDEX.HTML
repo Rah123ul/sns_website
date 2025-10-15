@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Science & Spirituality Club - NIT Calicut</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css"> 
+  <style>
+        
+</style>
+
+
+</head>
+<body> 
+
+  <div class="inital">
+  <a href="https://nitc.ac.in/" > <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIzLSLqT6oBkZNaZNyqjCcNAYdAQImiDU-ew&s" height="50"></a>
+<input type="text" name="Search" placeholder="Search"><button>search</button>
+ <div class="menu-icon">
+    &#9776; 
+ </div>
+ </div>
+  <header class="hero">
+     <video autoplay muted loop class="bg-video">
+    <source src="your-video.mp4" type="video/mp4">
+     </video> 
+     <div class="hero-text">
+    <h1>Science & Spirituality Club</h1>
+    <p>NIT Calicut</p></div>
+<section id="menu">
+   </section>
+</header>
+ <!-- <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav> -->
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#about">About</a>
+  <a href="#quiz">Quiz</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#events">Events</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="vision">
+  <h2>vision</h2>
+  <p2>To create a platform where students explore the harmony between scientific knowledge and spiritual wisdom, fostering holistic growth of mind, body, and soul.</p2>
+</section>
+<section id ="aim">
+  <h2>AIM</h2>
+  <p>The aim of the Science and Spirituality Club is to create a platform where students can explore the harmony between scientific knowledge and spiritual wisdom. The club seeks to encourage curiosity, critical thinking, and inner growth by blending rational inquiry with values, ethics, and mindfulness practices. It aspires to help members understand how science and spirituality together can guide humanity towards a more balanced, meaningful, and sustainable life.</p>
+</section>
+<section id="members">
+  <h2> Members</h2>
+<div class="Members-container">
+       <div class="Members">
+        <h2>FOUNDER</h2>
+        <img src="TATHVA.jpg" >
+        <p class="date">OCT 25, 2025</p>
+        <ul>
+        <li></li>
+        <li>G-mail</li>
+        </ul>
+        </div>
+
+    
+       <div class="Members">
+        <h2>club Coordinator</h2>
+         <img src="DRONE.jpg">
+         <p class="date">OCT 27, 2026</p>
+         <ul>
+          <li>Drone Racing</li>
+          <li>G-mail</li>
+         </ul>
+         </div>
+
+
+        <div class="Members">
+        <h2>secretary</h2>
+        <img src="EXPO.JPG" >
+         <p class="date">OCT 26, 2026</p>
+         <ul>
+          <li>Student Expo</li>
+          <li>G-mail</li>
+
+         </ul>
+    </div>
+  </section>
+    </body>
+
+<section id="quiz">
+  <h2>Quiz</h2>
+  <div id="quiz-container"></div>
+  <button id="start-quiz">Live Quiz</button>
+  <button id ='previous-quiz'>Past Quiz </button>
+  <button id="result">result</button>
+
+ <div id="result"></div>
+
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery" id="galleryContainer"></div>
+</section>
+
+<section id="events">
+  <h2>Events</h2>
+  <div id="eventsContainer"></div>
+</section>
+<section id="about">
+  <h2>About Us</h2>
+  <p>The Science and Spirituality Club at NIT Calicut offers a unique platform where technology meets timeless wisdom. We explore the harmony between scientific knowledge and spiritual understanding — through lectures, workshops, and vibrant discussions.</p>
+</section>
+
+<section id="contacts">
+  
+</section>
+
+
+<footer>
+    <h3>Contact Us:</h3>
+  <div style="text-align: center;">
+    <a href="https://www.youtube.com/@SNS_NIT_CALICUT" target="_blank">
+      <img src="youtube.jpg" alt="YouTube Channel" width="50" height="40">
+    </a>
+    <p>Contact No:7969569574</p>
+    <p>G-mail:sns@nitc.ac</p>
+  </div>
+  &copy; 2025 Science & Spirituality Club, NIT Calicut
+</footer>
+
+<script>
+  const galleryImages = [
+    "https://thesouthfirst.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-28-at-2.40.13-PM-1.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Science-spirituality.jpg/800px-Science-spirituality.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Indian_Knowledge_System_Symbol.jpg/800px-Indian_Knowledge_System_Symbol.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Meditation_Silhouette_India.jpg/800px-Meditation_Silhouette_India.jpg"
+  ];
+  const galleryContainer = document.getElementById("galleryContainer");
+  galleryImages.forEach(src => {
+    const img = document.createElement("img");
+    img.src = src;
+    galleryContainer.appendChild(img);
+  });
+  const events = [
+    { title: "Independence Day", date: "Aug 15, 2025", description: " All Students and Faculty Members are invited for the Flag Hosting Event" },
+  ];
+  const eventsContainer = document.getElementById("eventsContainer");
+  events.forEach(e => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.innerHTML = `<h3>${e.title}</h3><div class="date">${e.date}</div><p>${e.description}</p>`;
+    eventsContainer.appendChild(card);
+  });
+  const announcements = [
+    { title: "Registration Open for cultural programme", date: "Aug 20, 2025", content: "Students who are intrested to perform on Orientation Day for B25 can contact the admin" },
+    { title: "Registration Open for Ekdant", date: "Aug 30, 2025", content: "Registrations are now open for students intrested to perform on Ekdant event." }
+  ];
+  const announcementsContainer = document.getElementById("announcementsContainer");
+  announcements.forEach(a => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.innerHTML = `<h3>${a.title}</h3><div class="date">${a.date}</div><p>${a.content}</p>`;
+    announcementsContainer.appendChild(card);
+  });
+    // <script src="script.js"></script>
+
+</script>
+  <!-- <script src="script.js"></script> -->
+
+
+</body>
+</html>
