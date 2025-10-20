@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Club - Our Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f7f2; /* A warm, parchment-like off-white */
+            color: #3d405b; /* A deep, thoughtful indigo */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg-overview {
+            background-image: linear-gradient(rgba(248, 247, 242, 0.85), rgba(248, 247, 242, 1)), url('https://images.unsplash.com/photo-1484199316358-d7acb93729f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold text-[#3d405b]">SNS Club</a>
+            <div class="hidden md:flex items-center space-x-6 text-lg">
+                <a href="science.html" class="hover:text-[#e07a5f] transition-colors">Science</a>
+                <a href="spirituality.html" class="hover:text-[#e07a5f] transition-colors">Spirituality</a>
+                <a href="events.html" class="hover:text-[#e07a5f] transition-colors">Events</a>
+                <a href="gallery.html" class="hover:text-[#e07a5f] transition-colors">Gallery</a>
+                <a href="home.html#join" class="bg-[#81b29a] text-white px-5 py-2 rounded-full hover:bg-[#6a9e87] transition-colors">Join Us</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-2xl">☰</button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="science.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Science</a>
+             <a href="spirituality.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Spirituality</a>
+             <a href="events.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Events</a>
+             <a href="gallery.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Gallery</a>
+             <a href="home.html#join" class="block mt-2 bg-[#81b29a] text-white px-5 py-2 rounded-full text-center hover:bg-[#6a9e87] transition-colors">Join Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg-overview py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-[#3d405b] mb-4">Our Story & Purpose</h1>
+                <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
+                    Understanding the 'why' behind the SNS Club—a community dedicated to exploring the universe, within and without.
+                </p>
+            </div>
+        </section>
+
+        <!-- The Genesis of the Club -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <h2 class="text-4xl font-bold text-center mb-10">The Spark of an Idea</h2>
+                <div class="text-lg text-gray-800 leading-relaxed space-y-6">
+                    <p>
+                        "For years, I felt a strange division in my life. By day, I was immersed in the world of logic, data, and empirical evidence. By night, I would look up at the Kattangal sky and feel a sense of awe that science alone couldn't fully capture. I read philosophy, I practiced meditation, and I realized I was leading two parallel lives that rarely intersected."
+                    </p>
+                    <p>
+                        "The spark for the SNS Club came from a simple, powerful question: <span class="italic">'What if these two paths are not separate?'</span> What if the awe I feel looking at a galaxy through a telescope is the same fundamental human experience as the peace I feel in quiet meditation? What if the scientist's relentless search for truth and the mystic's journey toward understanding are just different dialects of the same language?"
+                    </p>
+                     <p>
+                        "I founded this club not to find definitive answers, but to create a home for that question. It is a space for all of us who suspect that the deepest truths lie at the intersection of our most rigorous questions and our most profound experiences."
+                    </p>
+                </div>
+                 <p class="text-gray-500 mt-6 text-center">- [Your Name], Founder</p>
+            </div>
+        </section>
+        
+        <!-- Our Core Philosophy -->
+        <section class="py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-12">Our Guiding Principles</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-6xl mx-auto">
+                    <!-- Principle 1 -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Curiosity Over Dogma</h3>
+                        <p>We believe in the power of questions, not the comfort of fixed answers. All beliefs are welcome, but all are open to gentle inquiry.</p>
+                    </div>
+                    <!-- Principle 2 -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.483a2.25 2.25 0 01.544 1.257l.31 1.548a2.25 2.25 0 002.348 2.114l1.636-.545a2.25 2.25 0 012.215.154z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Respectful Dialogue</h3>
+                        <p>Our greatest insights come from sharing diverse perspectives. We are committed to listening with empathy and speaking with kindness.</p>
+                    </div>
+                    <!-- Principle 3 -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                           <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Integrated Wisdom</h3>
+                        <p>We value both objective data and subjective experience. Our goal is to weave together insights from science and spirituality into a richer worldview.</p>
+                    </div>
+                    <!-- Principle 4 -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h7.5" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Community Foundation</h3>
+                        <p>Our work is done together. The club is a space for connection, friendship, and mutual support on our individual and collective journeys.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meet the Founder -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                 <div class="md:flex bg-white rounded-lg p-8 items-center">
+                    <img src="https://placehold.co/400x400/3d405b/f8f7f2?text=Founder" alt="Portrait of the founder" class="h-48 w-48 rounded-full mx-auto md:mx-0 md:mr-8">
+                    <div class="text-center md:text-left mt-6 md:mt-0">
+                        <h3 class="text-3xl font-bold">A Note from Our Founder</h3>
+                        <p class="text-gray-600 text-lg mt-2">"My role here is not as a teacher, but as a fellow traveler and a humble host. My passion is simply to hold the space for these vital conversations to happen. I am so glad you've found your way here, and I look forward to walking this path of inquiry with you."</p>
+                        <p class="font-bold mt-4">- [Your Name]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Us CTA -->
+        <section id="join" class="py-24 bg-[#3d405b]">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-white mb-4">Become Part of Our Story</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+                   If this story resonates with you, we invite you to join our community. Attend an event, join a discussion, and add your voice to the conversation.
+                </p>
+                <a href="events.html" class="inline-block bg-[#81b29a] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6a9e87] transition-colors">Explore Our Events</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#f8f7f2] py-12">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            <p>&copy; 2025 SNS Club. Founded with curiosity and built with community.</p>
+            <p class="mt-2">For inquiries, please reach out to <a href="mailto:founder@snsclub.org" class="underline hover:text-[#e07a5f]">founder@snsclub.org</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

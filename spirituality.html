@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Club - Exploring Spirituality</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f7f2; /* A warm, parchment-like off-white */
+            color: #3d405b; /* A deep, thoughtful indigo */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg-spirit {
+            background-image: linear-gradient(rgba(248, 247, 242, 0.8), rgba(248, 247, 242, 1)), url('https://images.unsplash.com/photo-1440342359743-13c473a3356e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .quote-bg {
+            background-color: #3d405b;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold text-[#3d405b]">SNS Club</a>
+            <div class="hidden md:flex items-center space-x-6 text-lg">
+                <a href="home.html#mission" class="hover:text-[#e07a5f] transition-colors">Our Mission</a>
+                <a href="home.html#events" class="hover:text-[#e07a5f] transition-colors">Events</a>
+                <a href="home.html#founder-note" class="hover:text-[#e07a5f] transition-colors">Founder's Note</a>
+                <a href="home.html#join" class="bg-[#81b29a] text-white px-5 py-2 rounded-full hover:bg-[#6a9e87] transition-colors">Join Us</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-2xl">☰</button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="home.html#mission" class="block py-2 hover:text-[#e07a5f] transition-colors">Our Mission</a>
+             <a href="home.html#events" class="block py-2 hover:text-[#e07a5f] transition-colors">Events</a>
+             <a href="home.html#founder-note" class="block py-2 hover:text-[#e07a5f] transition-colors">Founder's Note</a>
+             <a href="home.html#join" class="block mt-2 bg-[#81b29a] text-white px-5 py-2 rounded-full text-center hover:bg-[#6a9e87] transition-colors">Join Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg-spirit py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-[#3d405b] mb-4">The Universe Within.</h1>
+                <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
+                    A journey into consciousness, ancient wisdom, and the profound nature of our own experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- Founder's Introduction to Spirituality -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl text-center">
+                <h2 class="text-3xl font-bold mb-4">Our Approach to the Ineffable</h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                    "As the founder of this club, I want to be clear about what we mean by 'spirituality.' To us, it is not about dogma or prescribed beliefs. It is about the courageous exploration of our inner world. It's the practice of paying attention to the nature of our own consciousness and asking the most fundamental question: 'What does it mean to be?' Here, we approach this great mystery with the same respect, curiosity, and intellectual honesty that we apply to our scientific inquiries."
+                </p>
+                <p class="text-gray-500 mt-4">- [Your Name], Founder</p>
+            </div>
+        </section>
+
+        <!-- Core Areas of Exploration Section -->
+        <section class="py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-12">Our Paths of Exploration</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <!-- Path 1: Consciousness -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                             <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18.25a.25.25 0 01.25.25v.25a.25.25 0 01-.5 0v-.25a.25.25 0 01.25-.25zM10.5 16.5a.25.25 0 00-.25.25v.25a.25.25 0 00.5 0v-.25a.25.25 0 00-.25-.25zM13.5 16.5a.25.25 0 00-.25.25v.25a.25.25 0 00.5 0v-.25a.25.25 0 00-.25-.25zM12 15a.25.25 0 01.25.25v.25a.25.25 0 01-.5 0v-.25a.25.25 0 01.25-.25zM7.5 15a.25.25 0 00-.25.25v.25a.25.25 0 00.5 0v-.25a.25.25 0 00-.25-.25zM16.5 15a.25.25 0 00-.25.25v.25a.25.25 0 00.5 0v-.25a.25.25 0 00-.25-.25zM12 12a.25.25 0 01.25.25v.25a.25.25 0 01-.5 0v-.25A.25.25 0 0112 12zM4.5 12a.25.25 0 00-.25.25v.25a.25.25 0 00.5 0v-.25a.25.25 0 00-.25-.25zM19.5 12a.25.25 0 00-.25.25v.25a.25.25 0 00.5 0v-.25a.25.25 0 00-.25-.25zM9 9a.25.25 0 01.25.25v.25a.25.25 0 01-.5 0v-.25A.25.25 0 019 9z" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a8.25 8.25 0 006.262-2.825.25.25 0 00-.4-.325 7.75 7.75 0 01-11.724 0 .25.25 0 00-.4.325A8.25 8.25 0 0012 21z" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 3a8.25 8.25 0 00-6.262 2.825.25.25 0 00.4.325 7.75 7.75 0 0111.724 0 .25.25 0 00.4-.325A8.25 8.25 0 0012 3z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Consciousness</h3>
+                        <p>Exploring the "hard problem" of consciousness, altered states, and what modern neuroscience can tell us about our subjective experience.</p>
+                    </div>
+                    <!-- Path 2: Mindfulness -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                             <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9 9.75h.008v.008H9V9.75zm6 0h.008v.008H15V9.75z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Meditation & Mindfulness</h3>
+                        <p>We practice and discuss various meditation techniques, focusing on the practical benefits of mindfulness for mental clarity, focus, and well-being.</p>
+                    </div>
+                    <!-- Path 3: Ancient Wisdom -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                             <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Ancient Wisdom</h3>
+                        <p>From Stoicism to Taoism, we delve into philosophical traditions from around the world to find timeless insights relevant to modern life.</p>
+                    </div>
+                    <!-- Path 4: Experience -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.432 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">The Nature of Experience</h3>
+                        <p>Discussing profound human experiences like awe, creativity, flow, and connection, and how they shape our understanding of reality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-bg py-24">
+            <div class="container mx-auto px-6 text-center text-white">
+                <blockquote class="text-3xl md:text-4xl leading-tight max-w-4xl mx-auto">
+                    "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."
+                </blockquote>
+                <cite class="block mt-6 text-xl text-gray-300">- Carl Sagan</cite>
+            </div>
+        </section>
+
+
+        <!-- Join Us CTA -->
+        <section id="join" class="py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-[#3d405b] mb-4">Join the Inner Exploration</h2>
+                <p class="text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+                    Our conversations are where these ideas come to life. If you are ready to explore these profound topics with an open mind and a curious heart, we invite you to join our next gathering.
+                </p>
+                <a href="home.html#events" class="inline-block bg-[#81b29a] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6a9e87] transition-colors">See Upcoming Events</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#f8f7f2] py-12">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            <p>&copy; 2025 SNS Club. Founded with curiosity and built with community.</p>
+            <p class="mt-2">For inquiries, please reach out to <a href="mailto:founder@snsclub.org" class="underline hover:text-[#e07a5f]">founder@snsclub.org</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

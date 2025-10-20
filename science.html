@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Club - Exploring Science</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f7f2; /* A warm, parchment-like off-white */
+            color: #3d405b; /* A deep, thoughtful indigo */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg-science {
+            background-image: linear-gradient(rgba(248, 247, 242, 0.8), rgba(248, 247, 242, 1)), url('https://images.unsplash.com/photo-1614726365902-7937e1989467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .quote-bg {
+            background-color: #3d405b;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold text-[#3d405b]">SNS Club</a>
+            <div class="hidden md:flex items-center space-x-6 text-lg">
+                <a href="home.html#mission" class="hover:text-[#e07a5f] transition-colors">Our Mission</a>
+                <a href="home.html#events" class="hover:text-[#e07a5f] transition-colors">Events</a>
+                <a href="home.html#founder-note" class="hover:text-[#e07a5f] transition-colors">Founder's Note</a>
+                <a href="home.html#join" class="bg-[#81b29a] text-white px-5 py-2 rounded-full hover:bg-[#6a9e87] transition-colors">Join Us</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-2xl">☰</button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="home.html#mission" class="block py-2 hover:text-[#e07a5f] transition-colors">Our Mission</a>
+             <a href="home.html#events" class="block py-2 hover:text-[#e07a5f] transition-colors">Events</a>
+             <a href="home.html#founder-note" class="block py-2 hover:text-[#e07a5f] transition-colors">Founder's Note</a>
+             <a href="home.html#join" class="block mt-2 bg-[#81b29a] text-white px-5 py-2 rounded-full text-center hover:bg-[#6a9e87] transition-colors">Join Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg-science py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-[#3d405b] mb-4">The Poetry of Reality.</h1>
+                <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
+                    An exploration of the cosmos, from the quantum realm to the vastness of space, through the lens of evidence and wonder.
+                </p>
+            </div>
+        </section>
+
+        <!-- Founder's Introduction to Science -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl text-center">
+                <h2 class="text-3xl font-bold mb-4">Our Approach to Inquiry</h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                    "I founded this club because I believe science is one of the most profound spiritual paths we can walk. It is a discipline of humility, of being willing to let go of what we think we know in the face of new evidence. It is a practice of pure wonder. Here, we don't treat science as a set of cold facts, but as an ongoing story of discovery—a love letter from the universe to itself, and we are the privileged ones who get to read it."
+                </p>
+                <p class="text-gray-500 mt-4">- [Your Name], Founder</p>
+            </div>
+        </section>
+
+        <!-- Core Areas of Exploration Section -->
+        <section class="py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-12">Our Fields of Inquiry</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <!-- Field 1: Cosmology -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                             <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177.177a2.25 2.25 0 00-.998 1.787l-2.096 4.192a2.25 2.25 0 001.077 2.92l.498.249a2.25 2.25 0 002.485-.369l.183-.275a2.25 2.25 0 00-1.18-3.465l-2.201-.88a2.25 2.25 0 00-1.546.865l-1.018 1.527a2.25 2.25 0 00.323 3.117l.39.26a2.25 2.25 0 002.904-1.23l2.096-4.192a2.25 2.25 0 00-1.077-2.92l-.498-.249a2.25 2.25 0 00-2.485.369l-.183.275a2.25 2.25 0 001.18 3.465l2.201.88a2.25 2.25 0 001.546-.865l1.018-1.527a2.25 2.25 0 00-.323-3.117l-.39-.26a2.25 2.25 0 00-2.904 1.23z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Cosmology</h3>
+                        <p>From the Big Bang to the mysteries of dark matter and dark energy, we explore the origin, evolution, and fate of our universe.</p>
+                    </div>
+                    <!-- Field 2: Neuroscience -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                             <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.572L16.25 21.75l-.648-1.178a3.375 3.375 0 00-2.456-2.456L12 17.25l1.178-.648a3.375 3.375 0 002.456-2.456L16.25 13l.648 1.178a3.375 3.375 0 002.456 2.456L20.25 18l-1.178.648a3.375 3.375 0 00-2.456 2.456z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Neuroscience</h3>
+                        <p>We investigate the 3-pound universe inside our skulls, seeking to understand how the brain gives rise to thought, emotion, and consciousness itself.</p>
+                    </div>
+                    <!-- Field 3: Quantum Physics -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                             <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Quantum Physics</h3>
+                        <p>Diving into the strange and wonderful world of the very small, where particles can be in two places at once and reality is not what it seems.</p>
+                    </div>
+                    <!-- Field 4: Biology -->
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#f2cc8f]/50 p-5 rounded-full mb-4">
+                            <svg class="w-12 h-12 text-[#e07a5f]" xmlns="http://www.w.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Biology & Evolution</h3>
+                        <p>Unraveling the elegant story of life on Earth, from the first single-celled organism to the incredible complexity of the human form.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-bg py-24">
+            <div class="container mx-auto px-6 text-center text-white">
+                <blockquote class="text-3xl md:text-4xl leading-tight max-w-4xl mx-auto">
+                    "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science."
+                </blockquote>
+                <cite class="block mt-6 text-xl text-gray-300">- Albert Einstein</cite>
+            </div>
+        </section>
+
+
+        <!-- Join Us CTA -->
+        <section id="join" class="py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-[#3d405b] mb-4">Join the Great Inquiry</h2>
+                <p class="text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+                    Our guest lectures and discussion circles are where we challenge our assumptions and celebrate discovery. Join us to ask big questions in good company.
+                </p>
+                <a href="home.html#events" class="inline-block bg-[#81b29a] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6a9e87] transition-colors">Find a Discussion</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#f8f7f2] py-12">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            <p>&copy; 2025 SNS Club. Founded with curiosity and built with community.</p>
+            <p class="mt-2">For inquiries, please reach out to <a href="mailto:founder@snsclub.org" class="underline hover:text-[#e07a5f]">founder@snsclub.org</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

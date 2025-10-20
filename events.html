@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Club - Events</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f7f2; /* A warm, parchment-like off-white */
+            color: #3d405b; /* A deep, thoughtful indigo */
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-bg-events {
+            background-image: linear-gradient(rgba(248, 247, 242, 0.85), rgba(248, 247, 242, 1)), url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .event-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold text-[#3d405b]">SNS Club</a>
+            <div class="hidden md:flex items-center space-x-6 text-lg">
+                <a href="science.html" class="hover:text-[#e07a5f] transition-colors">Science</a>
+                <a href="spirituality.html" class="hover:text-[#e07a5f] transition-colors">Spirituality</a>
+                <a href="gallery.html" class="hover:text-[#e07a5f] transition-colors">Gallery</a>
+                <a href="#join" class="bg-[#81b29a] text-white px-5 py-2 rounded-full hover:bg-[#6a9e87] transition-colors">Join Us</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-2xl">☰</button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="science.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Science</a>
+             <a href="spirituality.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Spirituality</a>
+             <a href="gallery.html" class="block py-2 hover:text-[#e07a5f] transition-colors">Gallery</a>
+             <a href="#join" class="block mt-2 bg-[#81b29a] text-white px-5 py-2 rounded-full text-center hover:bg-[#6a9e87] transition-colors">Join Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg-events py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-[#3d405b] mb-4">Gather & Grow.</h1>
+                <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto">
+                    Our schedule of gatherings, discussions, and explorations. Here is where our community comes to life.
+                </p>
+            </div>
+        </section>
+
+        <!-- Founder's Note on Gatherings -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-3xl text-center">
+                <h2 class="text-3xl font-bold mb-4">The Importance of Gathering</h2>
+                <p class="text-lg text-gray-800 leading-relaxed">
+                    "From the very beginning, I knew the SNS Club had to be more than a website—it had to be a community. Our events are the moments we transform ideas into conversations and members into friends. Whether we're gazing at the stars over Kattangal or discussing a new scientific paper online, these are the times we build the bridge between science and spirituality, together. I warmly invite you to join us."
+                </p>
+                <p class="text-gray-500 mt-4">- [Your Name], Founder</p>
+            </div>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">Upcoming Events</h2>
+                <div class="space-y-12">
+                    <!-- Event 1 -->
+                    <div class="event-card md:flex items-center bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="md:w-1/3 bg-[#81b29a] text-white p-6 text-center">
+                            <p class="text-2xl font-bold">NOV</p>
+                            <p class="text-6xl font-bold">01</p>
+                            <p class="text-xl">Saturday, 7:00 PM</p>
+                        </div>
+                        <div class="p-6 md:w-2/3">
+                            <h3 class="text-2xl font-bold mb-2">Starlight Stories: An Evening with the Cosmos</h3>
+                            <p class="text-gray-600 mb-4"><span class="font-semibold">Location:</span> NIT Calicut Campus Viewpoint, Kattangal</p>
+                            <p class="mb-4">Join us for a magical night under the stars. We'll have telescopes aimed at Jupiter and the Andromeda Galaxy, and we'll share stories from both ancient myths and modern astrophysics. All are welcome, no experience necessary.</p>
+                            <a href="#" class="font-bold text-[#e07a5f] hover:underline">Learn More & RSVP &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Event 2 -->
+                    <div class="event-card md:flex items-center bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="md:w-1/3 bg-[#e07a5f] text-white p-6 text-center">
+                            <p class="text-2xl font-bold">NOV</p>
+                            <p class="text-6xl font-bold">12</p>
+                            <p class="text-xl">Wednesday, 6:30 PM</p>
+                        </div>
+                        <div class="p-6 md:w-2/3">
+                            <h3 class="text-2xl font-bold mb-2">The Mindful Brain: A Guest Lecture by Dr. Anjali Menon</h3>
+                            <p class="text-gray-600 mb-4"><span class="font-semibold">Location:</span> Online via Zoom</p>
+                            <p class="mb-4">We are thrilled to host Dr. Anjali Menon, a neuroscientist from Kochi, who will discuss the latest research on how meditation and mindfulness practices physically change the brain. A Q&A session will follow.</p>
+                            <a href="#" class="font-bold text-[#e07a5f] hover:underline">Register for Link &rarr;</a>
+                        </div>
+                    </div>
+                     <!-- Event 3 -->
+                    <div class="event-card md:flex items-center bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="md:w-1/3 bg-[#f2cc8f] text-[#3d405b] p-6 text-center">
+                            <p class="text-2xl font-bold">SUNDAYS</p>
+                            <p class="text-6xl font-bold">Weekly</p>
+                            <p class="text-xl">7:30 AM</p>
+                        </div>
+                        <div class="p-6 md:w-2/3">
+                            <h3 class="text-2xl font-bold mb-2">Morning Meditation Circle</h3>
+                            <p class="text-gray-600 mb-4"><span class="font-semibold">Location:</span> The Serene Garden, Kattangal</p>
+                            <p class="mb-4">Start your week with clarity and peace. Join our community for a 30-minute guided meditation session followed by a brief, optional sharing circle. A beautiful way to connect with yourself and others.</p>
+                            <a href="#" class="font-bold text-[#e07a5f] hover:underline">Drop-ins Welcome &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Past Events Section -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">From Our Archives</h2>
+                <div class="max-w-2xl mx-auto">
+                    <div class="border-t border-gray-200">
+                        <div class="py-4 px-2 flex justify-between items-center hover:bg-gray-50">
+                            <p class="text-lg">Discussion: Is the Universe Conscious?</p>
+                            <p class="text-gray-500">September 2025</p>
+                        </div>
+                        <div class="border-t border-gray-200 py-4 px-2 flex justify-between items-center hover:bg-gray-50">
+                            <p class="text-lg">Nature & Patterns: A Mindfulness Walk</p>
+                            <p class="text-gray-500">August 2025</p>
+                        </div>
+                        <div class="border-t border-gray-200 py-4 px-2 flex justify-between items-center hover:bg-gray-50">
+                            <p class="text-lg">The Physics of Everything: A Talk by Prof. Rajan</p>
+                            <p class="text-gray-500">July 2025</p>
+                        </div>
+                    </div>
+                     <div class="text-center mt-8">
+                        <a href="gallery.html" class="font-bold text-[#e07a5f] hover:underline">View moments from past events in our gallery &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Suggest an Event CTA -->
+        <section id="join" class="py-24 bg-[#3d405b]">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-white mb-4">Have an Idea for an Event?</h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+                    This is your club. If you know a potential speaker, have a topic you'd love to discuss, or an idea for a gathering, we want to hear it. Let's build our calendar together.
+                </p>
+                <a href="mailto:events@snsclub.org" class="inline-block bg-[#81b29a] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6a9e87] transition-colors">Suggest an Event</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#f8f7f2] py-12">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            <p>&copy; 2025 SNS Club. Founded with curiosity and built with community.</p>
+            <p class="mt-2">For inquiries, please reach out to <a href="mailto:founder@snsclub.org" class="underline hover:text-[#e07a5f]">founder@snsclub.org</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
